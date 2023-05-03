@@ -22,9 +22,9 @@ i {
 }
 i:hover {
   opacity: 0.9;
-  /* color: var(--secondary-color); */
+  color: var(--primary-color);
   /* color does not work on hover. Cause: used BS icons instead of font-awsome. */
-  color: #ff993b;
+  color: #bd1313
   
 }
 
