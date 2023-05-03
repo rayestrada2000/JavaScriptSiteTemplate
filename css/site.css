@@ -14,7 +14,20 @@ nav {
 }
 footer {
   background-color: var(--dark-color);
+  padding-right: 1rem;
 }
+
+i {
+  opacity: 0.75;
+}
+i:hover {
+  opacity: 0.9;
+  /* color: var(--secondary-color); */
+  /* color does not work on hover. Cause: used BS icons instead of font-awsome. */
+  color: #ff993b;
+  
+}
+
 h1,h2,h3,h4,h5,h6 {
   color: var(--primary-color);
 }
